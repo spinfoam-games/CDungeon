@@ -1,0 +1,22 @@
+{
+  "name": "CDungeon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^6.7.3",
+    "esbuild": "^0.16.6",
+    "esbuild-loader": "^2.20.0",
+    "html-webpack-plugin": "^5.5.0",
+    "less-loader": "^11.1.0",
+    "ramda": "^0.28.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "scripts": {
+    "dev": "webpack serve --config webpack.dev.js",
+    "build": "webpack --config webpack.dev.js"
+  }
+}
